@@ -1,4 +1,4 @@
---1. calculate weekOff (Saturday/Sunday) between two days
+--1. Find weekOff (Saturday/Sunday) between two days
 
 DECLARE @startDate DATETIME='01-01-2023';
 DECLARE @endDate DATETIME='01-31-2023';
