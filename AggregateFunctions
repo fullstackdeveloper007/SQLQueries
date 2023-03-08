@@ -1,0 +1,1 @@
+  SELECT STRING_AGG(CONVERT(VARCHAR(max), columnName),',' ) AS emp from tableName  
