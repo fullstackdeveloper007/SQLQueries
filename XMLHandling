@@ -1,0 +1,7 @@
+I have a xml inside a nvarchar(max) column below is the sample 
+<Create Id="1234"  No="3333" workId="456"  Name="testxml" Description="" />
+how to get the workId
+
+Ans:-
+SELECT   (CAST ([xmlColumnName] AS xml)).value('(/Create/@workId)[1]', 'int') AS workId
+FROM tablname t 
