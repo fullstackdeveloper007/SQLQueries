@@ -1,5 +1,4 @@
-# SQLQueries
-SQL Server Queries<br/>
+# Brush up your knowledge on SQL 
 
 <b>What is the command used to fetch first 5 characters of the string?</b><br/>
 There are many ways to fetch first 5 characters of the string - <br/>
