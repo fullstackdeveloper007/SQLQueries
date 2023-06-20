@@ -1,6 +1,7 @@
 # SQLQueries
-SQL Server Queries
-<b> There are many ways to fetch first 5 characters of the string -.</b></br>
-  <b>Ans</b> Select SUBSTRING(StudentName,1,5) as studentname from student
+SQL Server Queries<br/>
 
-1 Select RIGHT(Studentname,5) as studentname from student
+<b>What is the command used to fetch first 5 characters of the string?</b><br/>
+There are many ways to fetch first 5 characters of the string - <br/>
+a) Select SUBSTRING(StudentName,1,5) as studentname from student <br/>
+b) Select RIGHT(Studentname,5) as studentname from student
