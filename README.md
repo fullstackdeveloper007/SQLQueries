@@ -60,7 +60,11 @@ COMMIT TRANSACTION T2 -- This does not physically commit
 COMMIT TRANSACTION T1 -- This does a physically commit
   	PRINT @@TRANCOUNT --** Here TRANCOUNT value 0		**
 </code></pre>
+6.  
 
+<pre class="notranslate">
+	
+</pre>
 
  
 
